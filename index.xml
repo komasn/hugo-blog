@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 May 2023 14:14:11 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最初の投稿</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Fri, 05 May 2023 14:14:11 +0900</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>最初の記事です hugoを使ってブログを作成してみます。
+kindle unlimitedで読むことができたこちらの書籍を参考にして作成しました。
+Hugoで始める静的サイト構築入門
+使用したコマンドは
+hugo new site mysite hugo new posts/my-first-post.md hugo -D server hugo 上から順番に、
+新しいWEBサイトの作成、
+記事の投稿、
+localhostでのテスト、
+ビルド
+http://localhost:1313
+で確認してみたところ正常に表示されていることが確認できました。</description>
+    </item>
+    
+  </channel>
+</rss>
