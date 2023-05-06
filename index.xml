@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Blog</description>
+    <title>学習内容や作業をまとめるブログ</title>
+    <link>https://komasn.github.io/hugo-blog/</link>
+    <description>Recent content on 学習内容や作業をまとめるブログ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 05 May 2023 14:14:11 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 06 May 2023 11:46:58 +0900</lastBuildDate><atom:link href="https://komasn.github.io/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>公開用サイトの表示不具合</title>
+      <link>https://komasn.github.io/hugo-blog/posts/public-site/</link>
+      <pubDate>Sat, 06 May 2023 11:46:58 +0900</pubDate>
+      
+      <guid>https://komasn.github.io/hugo-blog/posts/public-site/</guid>
+      <description>hugoでビルドしたpublic配下のフォルダをgithub pagesで公開する形で運用ようと思いました。
+公開用URL
+単純にpublic以下のものをすべて配置すれば良いのかと思ったのですが、CSSが反映されていないようです。
+config.toml の baseURLを変更したところ、正常に表示されるようになりました。
+変更前：baseURL = &amp;#39;http://example.org/&amp;#39; 変更後：baseURL = &amp;#39;https://komasn.github.io/hugo-blog/&amp;#39; ただ、この設定だと hugo server でローカルマシン上で確認しようとすると 404 page not found になってしまいます。
+localhostで確認できることと、publicに正しいコンテンツが生成される方法を調べて行きます。</description>
+    </item>
+    
     <item>
       <title>最初の投稿</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://komasn.github.io/hugo-blog/posts/my-first-post/</link>
       <pubDate>Fri, 05 May 2023 14:14:11 +0900</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://komasn.github.io/hugo-blog/posts/my-first-post/</guid>
       <description>最初の記事です hugoを使ってブログを作成してみます。
 kindle unlimitedで読むことができたこちらの書籍を参考にして作成しました。
 Hugoで始める静的サイト構築入門
 使用したコマンドは
-hugo new site mysite hugo new posts/my-first-post.md hugo -D server hugo 上から順番に、
+$ hugo new site mysite $ hugo new posts/my-first-post.md $ hugo -D server $ hugo 上から順番に、
 新しいWEBサイトの作成、
 記事の投稿、
 localhostでのテスト、

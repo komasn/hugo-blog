@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://komasn.github.io/hugo-blog/posts/</loc>
+    <lastmod>2023-05-06T11:46:58+09:00</lastmod>
+  </url><url>
+    <loc>https://komasn.github.io/hugo-blog/posts/public-site/</loc>
+    <lastmod>2023-05-06T11:46:58+09:00</lastmod>
+  </url><url>
+    <loc>https://komasn.github.io/hugo-blog/</loc>
+    <lastmod>2023-05-06T11:46:58+09:00</lastmod>
+  </url><url>
+    <loc>https://komasn.github.io/hugo-blog/posts/my-first-post/</loc>
     <lastmod>2023-05-05T14:14:11+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2023-05-05T14:14:11+09:00</lastmod>
+    <loc>https://komasn.github.io/hugo-blog/categories/</loc>
   </url><url>
-    <loc>http://example.org/posts/my-first-post/</loc>
-    <lastmod>2023-05-05T14:14:11+09:00</lastmod>
-  </url><url>
-    <loc>http://example.org/categories/</loc>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://komasn.github.io/hugo-blog/tags/</loc>
   </url>
 </urlset>
