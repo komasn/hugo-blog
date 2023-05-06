@@ -237,11 +237,11 @@ localhostで確認できることと、publicに正しいコンテンツが生�
   <section><p>hugoでビルドしたpublic配下のフォルダをgithub pagesで公開する形で運用ようと思いました。</p>
 <p><a href="https://komasn.github.io/hugo-blog/">公開用URL</a></p>
 <p>単純にpublic以下のものをすべて配置すれば良いのかと思ったのですが、CSSが反映されていないようです。</p>
-<p><img src="/images/20230506_photo.png" alt="キャプチャ"></p>
+<p><img src="/hugo-blog/images/20230506_photo.png" alt="キャプチャ"></p>
 <p>config.toml の baseURLを変更したところ、正常に表示されるようになりました。</p>
 <pre tabindex="0"><code>変更前：baseURL = &#39;http://example.org/&#39;
 変更後：baseURL = &#39;https://komasn.github.io/hugo-blog/&#39;
-</code></pre><p><img src="/images/20230506_photo_02.png" alt="キャプチャ"></p>
+</code></pre><p><img src="/hugo-blog/images/20230506_photo_02.png" alt="キャプチャ"></p>
 <p>ただ、この設定だと hugo server でローカルマシン上で確認しようとすると 404 page not found になってしまいます。</p>
 <p>localhostで確認できることと、publicに正しいコンテンツが生成される方法を調べて行きます。</p>
 </section>
