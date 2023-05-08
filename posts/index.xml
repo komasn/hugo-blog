@@ -6,7 +6,19 @@
     <description>Recent content in Posts on 学習内容や作業をまとめるブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 06 May 2023 11:46:58 +0900</lastBuildDate><atom:link href="https://komasn.github.io/hugo-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 May 2023 23:39:02 +0900</lastBuildDate><atom:link href="https://komasn.github.io/hugo-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo sever によるlocalhostテスト</title>
+      <link>https://komasn.github.io/hugo-blog/posts/hugo-server-succsess/</link>
+      <pubDate>Mon, 08 May 2023 23:39:02 +0900</pubDate>
+      
+      <guid>https://komasn.github.io/hugo-blog/posts/hugo-server-succsess/</guid>
+      <description>config.tomlを修正してから local環境でのテストがうまくできていませんでしたが解決しました。
+config.tomlの内容
+baseURL = &amp;#39;https://komasn.github.io/hugo-blog/&amp;#39; hugo server を実行したあとに http://localhost:1313 にアクセスしても404 not foundが発生していました。
+ブラウザの検索窓に http://localhost:1313/hugo-blog と入力してアクセスすることで解決しました。</description>
+    </item>
+    
     <item>
       <title>公開用サイトの表示不具合</title>
       <link>https://komasn.github.io/hugo-blog/posts/public-site/</link>
